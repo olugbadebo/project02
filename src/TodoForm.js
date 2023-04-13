@@ -8,11 +8,7 @@ import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
-import Button from '@mui/material/Button';
 import AddCircleIcon from '@mui/icons-material/AddCircle';
-import Dialog from '@mui/material/Dialog';
-import DialogActions from '@mui/material/DialogActions';
-import DialogContent from '@mui/material/DialogContent';
 import TextField from '@mui/material/TextField';
 import HighlightOffIcon from '@mui/icons-material/HighlightOff';
 import EditRoundedIcon from '@mui/icons-material/EditRounded';
@@ -21,10 +17,8 @@ import Radio from '@mui/material/Radio';
 import RadioGroup from '@mui/material/RadioGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import FormLabel from '@mui/material/FormLabel';
-
 import toastr from 'toastr';
 import uuidv4 from 'uuid/v4';
-
 function TodoForm({
   open,
   setOpen,
@@ -227,5 +221,4 @@ function TodoForm({
     </div>
   );
 }
-
 export default TodoForm;

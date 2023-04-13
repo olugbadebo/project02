@@ -6,7 +6,6 @@ import TableRow from '@mui/material/TableRow';
 import EditRoundedIcon from '@mui/icons-material/EditRounded';
 import HighlightOffIcon from '@mui/icons-material/HighlightOff';
 import Checkbox from '@mui/material/Checkbox';
-
 import toastr from 'toastr';
 import moment from 'moment';
 
